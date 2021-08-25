@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(void){
+	int v, r, h;
+	printf("Dame el valor del radio \n ");
+	scanf("%d", &r);
+	printf("Dame el valor de la altura  \n");
+	scanf("%d", &h),
+	v=M_PI*r*h;
+	printf("el valor del volumen es:  %d  \n", v);
+	return 0;
+	
+	}
